@@ -1,0 +1,41 @@
+html{
+    text-align: center;
+}
+
+#avengers{
+    width: 1000px;
+}
+
+.grids{
+    height: 250px
+}
+
+#gridGallery{
+    text-align: center;
+}
+
+#thor{
+    width: 300px;
+}
+
+#marvelVision{
+    width: 300px;
+}
+
+#thanos{
+    width: 100%;
+}
+
+.carousel-content{
+    font-size: 50px;
+    color: white;
+}
+
+#styling{
+    background-color: black; 
+}
+
+ul{
+    position: fixed;
+    padding-bottom: 50px;
+}

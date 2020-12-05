@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Avengers Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <img id="avengers" src="The-Avengers-Logo-2012.jpg">
+    </section>
+    <br>
+    <section id="gridGallery">
+        <h1>Grid Gallery</h1>
+        <br>
+        <img src="iron-man.jpg" id="ironMan" class="grids">
+        <img src="Captain-america-1.jpg" id="winterSoldier" class="grids">
+        <img src="Black-Panther_d_l.jpg" id="blackPanther" class="grids">
+        <br><br>
+        <img src="incredible-hulk.jpg" id="hulk" class="grids">
+        <img src="thor.jpg" id="thor" class="grids">
+        <img src="vision.jpg" id="marvelVision" class="grids">
+    </section>
+    <br><br><br>
+    <h1>Sliding Gallery</h1>
+
+    <section id="styling">
+        <div class="carousel slide" data-ride="carousel" id="myCarousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="thanos-avengers-infinity.jpg" class="img-responsive" id="thanos">
+                        <div class="carousel-content">
+                            <p>Thanos</p>
+                        </div>
+
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="doctor_strange_main.jpg" class="img-responsive">
+                        <div class="carousel-content">
+                            <p>Doctor Strange</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="Hawkeye-and-Avengers-Infinity-War-Logo-Poster-1.jpg" class="img-responsive">
+                        <div class="carousel-content">
+                            <p>Hawkeye</p>
+                        </div>
+                    </center>
+                </div>
+                <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ul>
+
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+
+        </div>
+
+    </section>
+</body></html>
